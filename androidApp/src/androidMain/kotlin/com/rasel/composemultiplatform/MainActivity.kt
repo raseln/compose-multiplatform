@@ -1,4 +1,4 @@
-package com.composemultiplatform
+package com.rasel.composemultiplatform
 
 import MainView
 import android.os.Bundle
