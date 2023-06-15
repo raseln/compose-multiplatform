@@ -1,0 +1,21 @@
+[versions]
+agp = "7.4.0"
+androidx-activity = "1.7.2"
+androidx-appCompat = "1.6.1"
+image-loader = "1.5.1"
+kotlin = "1.8.20"
+core-ktx = "1.10.1"
+junit = "4.13.2"
+
+[libraries]
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "androidx-activity" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "androidx-appCompat" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
+image-loader = { group = "io.github.qdsfdhvh", name = "image-loader", version.ref = "image-loader" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+android-library = { id = "com.android.library", version.ref = "agp" }
+jetbrains-compose = { id = "org.jetbrains.compose", version = "1.4.0" }
+
