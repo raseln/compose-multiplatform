@@ -3,6 +3,15 @@
 This is a sample project that demonstrates the usage of Compose Multiplatform UI framework with Kotlin Multiplatform Mobile (KMM) targetting Android and iOS. The app displays a grid of network images.
 
 
+## Screenshots (Android)
+
+<img src="images/InitialScreenAndroid.png" height="400px" title="Android Initial" style="margin-right: 50px;"> <img src="images/SelectedAndroid.png" height="400px" title="Selected Android">
+
+## Screenshots (iOS)
+
+<img src="images/InitialScreeniOS.png" height="400px" title="Initial Screen iOS" style="margin-right: 50px;"> <img src="images/SelectediOS.png" height="400px" title="Selected iOS">
+
+
 ## Prerequisites
 
 To run this project, you'll need the following:
@@ -48,7 +57,7 @@ This project utilizes the following dependencies:
 
 - Kotlin Multiplatform Mobile (KMM)
 - Compose Multiplatform UI
-- <Add any other dependencies and their versions>
+- Image Loader for Compose Multiplatform
 
 For more details about the dependencies and their versions, please refer to the `build.gradle.kts` file.
 
